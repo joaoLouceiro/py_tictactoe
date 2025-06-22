@@ -27,3 +27,6 @@ addopts = [
     "--import-mode=importlib",
 ]
 
+[project.scripts]
+pytactoe = "pytactoe.main:main"
+
